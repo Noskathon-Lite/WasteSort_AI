@@ -6,37 +6,37 @@ export default function Programs() {
         title: "Support Environmental Activities",
         description: "We help organizations identify sustainable ways to manage waste.",
         icon: "🤲",
-        link: "#",
+
       },
       {
-        title: " Increased User Engagement Through Innovative Technology",
-        description: "We feature our members' names and activities on our website and in our publications.",
-        icon: "📢",
-        link: "#",
-      },
-      {
-        title: "Connect Members",
-        description: "We bring together organizations to share knowledge in environmental subjects.",
+          title: "Workshops and Education Programs",
+          description: "We can  Host paid training sessions or online courses on waste segregation and sustainability.it provides a dedicated knowledge to the public about the waste management",
+          icon: "📢",
+          
+        },
+        {
+            title: " Recycling Partnerships",
+            description: " Earning commissions by connecting waste producers with recycling plants or  selling recyclable materials.",
         icon: "🔗",
-        link: "#",
+       
       },
       {
-        title: "Foster Environmental Research",
-        description: "We support research in topics like biodiversity and climate change.",
+        title: "Data Monetization",
+        description: "We can  sell waste classification data to researchers, NGOs, and policymakers for environmental studies and sustainability initiatives.",
         icon: "🔬",
-        link: "#",
+       
       },
       {
-        title: "Contribute to Environmental Debates",
-        description: "We demonstrate our philosophy and values through global debates.",
+        title: "Advertising and Branding",
+        description: "Partnering with eco-friendly brands and display their ads of our website",
         icon: "🌍",
-        link: "#",
+       
       },
       {
         title: "Spread Environmental Information",
         description: "We contribute to enriching the globe with environmental literature and knowledge.",
         icon: "ℹ️",
-        link: "#",
+      
       },
     ];
   
@@ -54,19 +54,14 @@ export default function Programs() {
           {programs.map((program, index) => (
             <div
               key={index}
-              className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transform hover:scale-105 transition-all duration-300 "
+              className="bg-[#bfe2ca] shadow-lg rounded-lg p-6 hover:shadow-2xl transform hover:scale-105 transition-all duration-300 "
             >
               <div className="text-5xl mb-4 text-green-500">{program.icon}</div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">
                 {program.title}
               </h3>
-              <p className="text-gray-600[#709965] mb-4">{program.description}</p>
-              <a
-                href={program.link}
-                className="text-blue-500 font-semibold hover:underline"
-              >
-                Read More →
-              </a>
+              <p className="text-gray-600 mb-4">{program.description}</p>
+              
             </div>
           ))}
         </div>

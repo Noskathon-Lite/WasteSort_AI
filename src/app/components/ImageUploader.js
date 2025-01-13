@@ -43,8 +43,8 @@ export default function ImageUploader() {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen bg-gradient-to-br from-green-100 via-green-50 to-green-200">
-      <div className="w-1/4 p-6 bg-white rounded-xl shadow-lg transform transition duration-500 hover:scale-105">
+    <div className="flex items-center justify-center  bg-gradient-to-br from-green-100 mt-[20px] via-green-50 to-green-200">
+      <div className="my-[70px] p-6 bg-white rounded-xl shadow-lg transform transition duration-500 hover:scale-105">
         <h1 className="text-2xl font-bold mb-4 text-center text-[#709965]">
           Upload Your Image
         </h1>

@@ -13,11 +13,11 @@ const Header = () => {
         <div className="flex items-center">
           <nav>
             <ul className="flex space-x-6">  
-              <li>
+              {/* <li>
                 <a href="/upload" className="hover:text-gray-300">
                   Upload+
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="/Aboutus" className="hover:text-gray-300">
                   About Us

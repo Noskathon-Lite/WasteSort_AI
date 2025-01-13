@@ -11,12 +11,12 @@ export default function Home() {
       {/* Header Section */}
       <Header />
       <div>
-        <Slider/>
+        {/* <Slider/> */}
       </div>
   
       {/* Upload Section */}
       {/* <ImageUploader /> */}
-
+<ImageUploader/>
       {/* how it works */}
       <Howitwork />
       <Programs/>

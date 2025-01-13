@@ -1,13 +1,10 @@
 import React from 'react'
-import Howitwork from '../components/Howitwork'
-
-import ImageUploader from '../components/ImageUploader'
-import Programs from '../components/Programs'
+import ReportPage from '../components/ReportPage'
 
 const page = () => {
   return (
     <div>
-   <Programs/>
+   <ReportPage/>
     </div>
   )
 }
